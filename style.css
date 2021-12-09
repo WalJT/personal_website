@@ -13,4 +13,27 @@ body {
     box-shadow: 0 0 11px grey;
     border-radius: 5px;
     padding: 5px;
+    margin: 15px;
+}
+
+.photograph {
+    background-color: aliceblue;
+    box-shadow: 0 0 11px grey;
+    border-radius: 5px;
+    padding: 5px;
+    overflow: auto;
+}
+
+.photograph img {
+    max-width: 50%;
+    max-height: 50vh;
+    float: left;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.photograph p {
+    text-align: justify;
+    margin-right: 15px;
+    margin-left: 15px;
 }
